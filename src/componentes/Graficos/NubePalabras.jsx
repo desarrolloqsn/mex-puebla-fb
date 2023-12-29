@@ -24,7 +24,7 @@ export default function NubePalabras() {
   }, [filtroFecha]);
 
  
-
+console.log('series', series)
   const opcionesFechas = fechas.map((fecha, index) => (
     <Select.Option key={index} value={fecha}>
       {fecha.slice(0, 10)}
